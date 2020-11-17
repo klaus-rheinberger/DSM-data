@@ -76,7 +76,7 @@ Details are given in the code files.
 
 ## Sampling and Units
 
-## Raw Data
+### Raw Data
 
 - HH: 1/2 hour, kWh
 - EV: seconds,  kW and boolean
@@ -84,7 +84,7 @@ Details are given in the code files.
 - DA: 1 hour,   EUR/MWh
 - RG: 1/4 hour, MW
 
-## Resampling
+### Processed Data
 
 Data is resampled to a common sampling interval of 1/4 hour. The processed data has the following units:
 
@@ -113,11 +113,5 @@ Please contact us, when you find errors or have ideas for improvements.
 
 ## Contact
 
-Dr. Klaus Rheinberger
-[Research Center Energy](https://www.fhv.at/en/research/energy/)
-[FH Vorarlberg University of Applied Sciences](https://www.fhv.at/)
-Hochschulstrasse 1
-6850 Dornbirn
-Austria
-Tel.: +43 5572 792 3811
-Email: [klaus.rheinberger@fhv.at](mailto:klaus.rheinberger@fhv.at)
+Dr. Klaus Rheinberger, [Research Center Energy](https://www.fhv.at/en/research/energy/)
+[FH Vorarlberg University of Applied Sciences](https://www.fhv.at/), [klaus.rheinberger@fhv.at](mailto:klaus.rheinberger@fhv.at)
