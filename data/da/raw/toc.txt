@@ -1,0 +1,5 @@
+.
+├── Day-ahead Prices_201601010000-201701010000.csv
+└── toc.txt
+
+0 directories, 2 files

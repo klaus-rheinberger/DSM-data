@@ -1,0 +1,14 @@
+.
+├── Clusters.csv
+├── EVChargeData.csv
+├── EVTripData.csv
+├── ICBData.csv
+├── MCData.csv
+├── MEA MC data.xlsx
+├── My Electric Avenue Published Technical Data Overview.pdf
+├── Participant_Locations.xlsx
+├── Participants.csv
+├── SwitchStates.csv
+└── toc.txt
+
+0 directories, 11 files

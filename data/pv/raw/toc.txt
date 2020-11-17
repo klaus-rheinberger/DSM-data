@@ -1,0 +1,6 @@
+.
+├── Timeseries_50.000_10.000_SA_1kWp_crystSi_14_37deg_-4deg_2016_2016.csv
+├── Timeseries_50.000_10.000_SA_1kWp_crystSi_14_37deg_-4deg_2016_2016_no_legend.csv
+└── toc.txt
+
+0 directories, 3 files

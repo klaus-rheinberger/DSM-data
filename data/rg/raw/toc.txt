@@ -1,0 +1,5 @@
+.
+├── time_series_15min_singleindex_filtered.csv
+└── toc.txt
+
+0 directories, 2 files

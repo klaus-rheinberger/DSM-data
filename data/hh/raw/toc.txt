@@ -1,0 +1,35 @@
+.
+├── CER_Electricity_Data
+│   ├── Survey data - CSV format
+│   │   ├── Smart meters Residential post-trial survey data.csv
+│   │   ├── Smart meters Residential pre-trial survey data.csv
+│   │   ├── Smart meters SME post-trial survey data.csv
+│   │   └── Smart meters SME pre-trial survey data.csv
+│   └── Survey data - Excel format
+│       ├── Smart meters Residential post-trial survey data.xlsx
+│       ├── Smart meters Residential pre-trial survey data.xlsx
+│       ├── Smart meters SME post-trial survey data.xlsx
+│       └── Smart meters SME pre-trial survey data.xlsx
+├── CER_Electricity_Documentation
+│   ├── Electricity Smart Metering Technology Trials Findings Report.pdf
+│   ├── Manifest - Smart Meter Electricity Trial Data v1.0.1.docx
+│   ├── RESIDENTIAL POST TRIAL SURVEY.doc
+│   ├── RESIDENTIAL PRE TRIAL SURVEY.doc
+│   ├── SME and Residential allocations.xlsx
+│   ├── SME POST TRIAL SURVEY.doc
+│   └── SME PRE TRIAL SURVEY.doc
+├── File1.txt
+├── File1.txt.zip
+├── File2.txt
+├── File2.txt.zip
+├── File3.txt
+├── File3.txt.zip
+├── File4.txt
+├── File4.txt.zip
+├── File5.txt
+├── File5.txt.zip
+├── File6.txt
+├── File6.txt.zip
+└── toc.txt
+
+4 directories, 28 files
