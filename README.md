@@ -48,6 +48,9 @@ Visit the Special Issue's website for further details.
 - figures
 
 The data in the raw folders has to be filled by the users themselves by downloading the raw data from websites that are specified in the code files. The toc.txt files in the raw folders give the target structure and file names after filling the raw folders.
+
+## Generation of Processed Data
+
 By executing the the [Jupyter Notebooks](https://jupyter.org/)
 
 1. Data_RG.ipynb
