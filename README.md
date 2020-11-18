@@ -1,6 +1,8 @@
 # DSM-Data
 
-<!-- TOC -->
+**Table of Contents:**
+
+<!-- TOC depthfrom:2 -->
 
 - [DSM-Data](#dsm-data)
   - [Special Issue in Energies](#special-issue-in-energies)
@@ -16,6 +18,8 @@
   - [Contact](#contact)
 
 <!-- /TOC -->
+
+---
 
 This repository enables users to process some publicly available Demand Side Management (DSM) data. The latter are loaded as raw data, in some cases patched, sliced, resampled, and matched to yield quarter-hourly sampled time series for the year 2016 of 
 
