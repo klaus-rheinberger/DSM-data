@@ -1,5 +1,22 @@
 # DSM-Data
 
+<!-- TOC -->
+
+- [DSM-Data](#dsm-data)
+  - [Special Issue in Energies](#special-issue-in-energies)
+  - [Folder Structure](#folder-structure)
+  - [Generation of Processed Data](#generation-of-processed-data)
+  - [Data Sources](#data-sources)
+  - [Maximum EV and HH Data Sizes](#maximum-ev-and-hh-data-sizes)
+  - [Sampling and Units](#sampling-and-units)
+  - [Uncertainty and Predictions](#uncertainty-and-predictions)
+  - [Examples](#examples)
+  - [Alert](#alert)
+  - [Feedback](#feedback)
+  - [Contact](#contact)
+
+<!-- /TOC -->
+
 This repository enables users to process some publicly available Demand Side Management (DSM) data. The latter are loaded as raw data, in some cases patched, sliced, resampled, and matched to yield quarter-hourly sampled time series for the year 2016 of 
 
 - renewable generation (RG) in Germany
