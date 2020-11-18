@@ -79,23 +79,24 @@ Details are given in the code files.
 
 ## Sampling and Units
 
-### Raw Data
+Raw data is resampled to a common sampling interval of 1/4 hour. The processed data has the following units:
 
-- HH: 1/2 hour, kWh
-- EV: seconds,  kW and boolean
-- PV: 1 hour,   kW  
-- DA: 1 hour,   EUR/MWh
-- RG: 1/4 hour, MW
+|                | raw sampling | raw unit | processed sampling | processed unit |
+|----------------|--------------|----------|--------------------|----------------|
+| HH demand      | 1/2 hour     | kWh      | 1/4 hour           | kW             |
+| EV consumption | seconds      | kW       | 1/4 hour           | kW             |
+| EV driving     | seconds      | boolean  | 1/4 hour           | boolean        |
+| EV charging    | seconds      | boolean  | 1/4 hour           | boolean        |
+| EV loadable    | -            | -        | 1/4 hour           | boolean        |
+| PV production  | 1 hour       | kW       | 1/4 hour           | kW             |
+| DA price       | 1 Hour       | EUR/MWh  | 1/4 hour           | EUR/MWh        |
+| RG production  | 1/4 hour     | MW       | 1/4 hour           | MW             |
 
-### Processed Data
+The EV loadable state is defined as
 
-Data is resampled to a common sampling interval of 1/4 hour. The processed data has the following units:
-
-- HH: kW
-- EV: kW and boolean
-- PV: kW
-- DA: EUR/MWh
-- RG: MW
+- True for non-driving time frames that include at least one charging period.
+- True for the non-driving periods between 00:00 and 06:00 which are expanded into the future and the past up to the adjacent driving periods.
+- False otherwise.
 
 ## Uncertainty and Predictions
 
